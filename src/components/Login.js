@@ -63,7 +63,7 @@ class Login extends PureComponent {
         return (
             <div className={Style["login-box"]}>
                 <div className={Style["login-header-box"]}>
-                    <img className={Style["login-image"]} alt="logo" src="https://t-bj-public-1.oss-cn-shanghai.aliyuncs.com/logo/wc-logo.png"/>
+                    <img className={Style["login-image"]} alt="logo" src="xxx"/>
                     <h1 className={Style["title-h1"]}>登陆运营系统</h1>
                     <p>请注意保管好自己的权限，你的权限就是公司的资产</p>
                 </div>
