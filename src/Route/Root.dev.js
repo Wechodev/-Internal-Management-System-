@@ -48,19 +48,19 @@ class Root extends  PureComponent{
         let title
         switch(nextUrlSting){
             case '/':
-                title="wc-首页";
+                title="首页";
                 break;
             case '/login':
-                title = "wc-登陆页面"
+                title = "登陆页面"
                 break
             case '/merchant':
-                title = "wc-商户"
+                title = "商户"
                 break
             case '/schedules':
-                title = "wc-商户进件"
+                title = "商户进件"
                 break
             default:
-                title="wc-内部系统";
+                title="内部系统";
                 break;
         }
         document.title = title
