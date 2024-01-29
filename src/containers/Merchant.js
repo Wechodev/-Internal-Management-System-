@@ -9,8 +9,8 @@ const basicOptionList = [
     {type:'select', title:'请输入展示地区', name:'country', data:[], show_name:'Cn', http_val:'En'},
     {type:'select', title:'请查找服务商', name:'agents', data:[], show_name:'Name', http_val:'AgentNo'},
     {type:'time', title:'开通时间', name:'time_range', time:['开通时间', '结束时间']},
-    {type:'input', title:'请输入商户号，商户主体或者商户简称', name:'merchant_info'},
-    {type:'input', title:'输入微信商户号查询', name:'wx_merchant_id'}
+    {type:'input', title:'简称', name:'merchant_info'},
+    {type:'input', title:'输入商户号查询', name:'wx_merchant_id'}
 ]
 
 const basicHeaderList = [
